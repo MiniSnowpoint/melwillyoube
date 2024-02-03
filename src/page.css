@@ -1,0 +1,26 @@
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bear {
+    height: 200px;
+    width: 200px;
+}
+
+.text {
+    font-size: large;
+}
+
+.accept {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.decline {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
