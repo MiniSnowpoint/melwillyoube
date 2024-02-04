@@ -3,25 +3,41 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
 }
 
 .bear {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
 
 .text {
-    font-size: large;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
 }
 
 .accept {
     background-color: green;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
 }
 
 .decline {
     background-color: red;
     color: white;
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
 }
