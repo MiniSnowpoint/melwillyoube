@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import './page.css';
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
